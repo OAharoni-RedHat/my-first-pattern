@@ -2,5 +2,11 @@ clusterGroup:
   name: prod
   namespaces:
     my-first-pattern:
+    boutique: {}
   subscriptions: {}
-  applications: {}
+  applications:
+    boutique:
+      name: boutique
+      namespace: boutique
+      chart: boutique
+      chartVersion: 0.0.*
