@@ -1,0 +1,6 @@
+clusterGroup:
+  name: prod
+  namespaces:
+    my-first-pattern:
+  subscriptions: {}
+  applications: {}
